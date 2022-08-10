@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML cheat sheet</title>
+  </head>
+  <body>
+    <!-- headings -->
+    <h1>HTML Crash Course</h1>
+
+    <!-- paragraph -->
+    <p>first paragraph</p>
+
+    <!--  Inline and block elements
+        1. Inline elements --- do not start with new line  and take only necessary width --- <span>, <img>,<a>
+        2. block elements ---- starts with new line and take full width availabel  ---  <div>, <h1> , <p>
+        -->
+
+    <p><strong> text is bold by default</strong></p>
+    <a href="http://google.com" target="_blank">Link to chrome</a>
+
+    <!-- Lists-->
+    <ul>
+      <li>List item</li>
+      <li>List 2</li>
+    </ul>
+
+    <ol>
+      <li>List item</li>
+      <li>List 2</li>
+    </ol>
+
+    <!-- table -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Arman</th>
+          <th>arman@gmail.com</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <br>
+    <!-- Forms-->  <!-- using div tag make input field in next line as it block element-->
+    <form action="process.php" method="post">
+      <div>
+        <label>First Name</label> 
+        <input type="text" name="first_name" placeholder="Enter your name"/>
+      </div>
+      <br>
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="first_name" />
+      </div>
+      <br>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" />
+      </div>
+      <br>
+      <div>
+        <label>Gender</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+      </div>
+      <br>
+      <div>
+        <label>Number</label>
+        <input type="number" name="age" value="30"/>
+      </div><br>
+      <div>
+        <label>Date</label>
+        <input type="date" name="birthdate" />
+      </div>
+      <br>
+      <input type="submit" value="Submit">
+      <button>Click  Me</button>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- Images --> 
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw0gWlEimLsPylCKAm95y1K27fCdzXEHGhXYTfEWXo&s" alt="my sample image">
+  
+    <!--Quoatations -->
+
+    <blockquote cite="link">Quotes from Arman</blockquote>
+
+    <p>
+        <abbr title="world wide web">WWW</abbr>
+    </p>
+
+    <p><cite>This is </cite> crash course</p>
+
+</body>
+</html>
